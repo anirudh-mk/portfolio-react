@@ -1,0 +1,15 @@
+.headding{
+    width: 435px;
+    height: 42px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 20px;
+    left: 28px;
+}
+.headding .headding-text{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

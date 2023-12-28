@@ -1,17 +1,24 @@
 import BottomDecorator from '../Components/BottomDecorator/BottomDecorator';
+import HeaddingText from '../Components/HeaddingText/HeaddingText';
+import TopDecorator from '../Components/TopDecorator/TopDecorator';
 import './App.css';
 
 function App() {
   return (
     <div>
       <div className='about'>
-        <BottomDecorator bottom='0px' left='0px'></BottomDecorator>
+        <HeaddingText headding='About' color='#fff'></HeaddingText>
+        <BottomDecorator></BottomDecorator>
+        <TopDecorator></TopDecorator>
       </div>
-      <br></br>
+      <div className='projects'>
+        <HeaddingText headding='Projects' color='#000'></HeaddingText>
+      </div>
       <div className='contact'>
-        <BottomDecorator bottom='0px' left='0px'></BottomDecorator>
+        <HeaddingText headding='Contact' color='#fff'></HeaddingText>
+        <BottomDecorator></BottomDecorator>
+        <TopDecorator></TopDecorator>
       </div>
-      
     </div>
   );
 }
