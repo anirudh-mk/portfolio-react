@@ -1,0 +1,53 @@
+.layout{
+    width: 287.899px;
+    height: 168.161px;
+    flex-shrink: 0;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0px;
+    left: 0px;
+}
+.layout .box-one{
+    width: 206.383px;
+    height: 27px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    z-index: 2;
+    left: -44px;
+    bottom: 26px;
+}
+.layout .box-two{
+    width: 242.319px;
+    height: 22px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    left: 22.3px;
+    bottom: 46px;
+}
+.layout .box-three{
+    width: 122.453px;
+    height: 27px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    left: 102px;
+    bottom: -6px;
+}
+.layout .circle{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    left: 142px;
+    top: 38px;
+}

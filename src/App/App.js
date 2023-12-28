@@ -1,8 +1,18 @@
+import BottomDecorator from '../Components/BottomDecorator/BottomDecorator';
 import './App.css';
 
 function App() {
   return (
-    <div><h1>This is my app</h1></div>
+    <div>
+      <div className='about'>
+        <BottomDecorator bottom='0px' left='0px'></BottomDecorator>
+      </div>
+      <br></br>
+      <div className='contact'>
+        <BottomDecorator bottom='0px' left='0px'></BottomDecorator>
+      </div>
+      
+    </div>
   );
 }
 
