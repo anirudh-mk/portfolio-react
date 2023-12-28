@@ -6,6 +6,31 @@
   margin: auto;
   position: relative;
 }
+.about .about-text{
+  width: 690px;
+  height: 190px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 356px;
+  top: 128px;
+}
+.about .about-text p{
+  color: #FFF;
+  font-family: Poppins, Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+.about .about-text p i{
+  color: #FFF;
+  font-family: Poppins, Montserrat;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .projects{
   width: 1192px;
   height: 436px;
