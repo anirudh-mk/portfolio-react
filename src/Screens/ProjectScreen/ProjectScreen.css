@@ -43,7 +43,7 @@
     grid-template-columns: repeat(auto-fit, minmax(calc(50% - 20px), 1fr));
     justify-content: center; /* Center items horizontally */
     align-items: center; 
-    margin-left: 110px;
+    margin-left: 50px;
   }
   
   .project-details-container li {

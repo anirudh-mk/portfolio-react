@@ -19,8 +19,11 @@ function ProjectScreen({ username, token }) {
           },
         });
 
-        setProjects(response.data);
-        setTotalProjects(response.data.length);
+        // Sort projects based on the number of commits
+        const sortedProjects = response.data.sort((a, b) => b.commits - a.commits);
+
+        setProjects(sortedProjects);
+        setTotalProjects(sortedProjects.length);
       } catch (error) {
         console.error('Error fetching GitHub projects:', error);
       }
@@ -47,17 +50,21 @@ function ProjectScreen({ username, token }) {
   };
 
   return (
-    <div className='projects' style={{ height: showAll ? 420*(totalProjects/4)+160 : 600 }}>
-      <HeaddingText headding='Projects' color='#000'/>
-      <div className='project-details-container' style={{ height: showAll ? 420*(totalProjects/4) : 420 }}>
+    <div className='projects' style={{ height: showAll ? 420 * (totalProjects / 4) + 160 : 600 }}>
+      <HeaddingText headding='Projects' color='#000' />
+      <div className='project-details-container' style={{ height: showAll ? 420 * (totalProjects / 4) : 420 }}>
         <ul>
-            {displayedProjects.map((project) => (
+          {displayedProjects.map((project) => (
             <ProjectDetailsCard key={project.id} project={project} />
-            ))}
+          ))}
         </ul>
       </div>
       {projects.length > 2 && (
-        <button className='show-more-button' onClick={handleToggleDisplay} style={{ width: '200px', height: '40px', top: showAll ? 420*(totalProjects/4)+70 : 520}}>
+        <button
+          className='show-more-button'
+          onClick={handleToggleDisplay}
+          style={{ width: '200px', height: '40px', top: showAll ? 420 * (totalProjects / 4) + 70 : 520 }}
+        >
           <p>{showAll ? 'Show Less' : 'Show More'}</p>
         </button>
       )}

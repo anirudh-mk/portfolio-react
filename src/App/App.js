@@ -4,6 +4,9 @@ import TextButton from '../Components/TextButton/TextButton';
 import TopDecorator from '../Components/TopDecorator/TopDecorator';
 import DetailsText from '../Components/DetailsText/DetailsText';
 
+import  AnirudhImage from '../assets/anirudh.png'
+import AnirudhAboutImage from '../assets/anirudh_about.png'
+
 import { faGithubAlt, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
@@ -30,25 +33,25 @@ function App() {
         <IconButton icon={faLinkedinIn} icon_button_color='#6E6F64' icon_color="#fff" top={442} left={451}/>
         <IconButton icon={faTwitter} icon_button_color='#6E6F64' icon_color="#fff" top={442} left={523}/>
         <ProfileImage 
-          image={'d'}
+          image={AnirudhImage}
           width={344}
           height={403}
           border_radius={172}
           left={765}
           image_background_top={142}
-          image_container_top={81}
+          image_container_top={83}
         />
       </div>
       <div className='about'>
         <HeaddingText headding='About' color='#fff' />
         <ProfileImage 
-          image='D:/Anirudh/Coding/React/portfolio/src/assets/anirudh_about.png'
+          image={AnirudhAboutImage}
           width={117.977}
           height={138.227}
           border_radius={69}
           left={171}
           image_background_top={140}
-          image_container_top={119}
+          image_container_top={120}
         />
         <div className='about-text'>
           <p>
@@ -63,7 +66,7 @@ function App() {
         <BottomDecorator/>
         <TopDecorator/>
       </div>
-      <ProjectScreen username='anirudh-mk' token='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'/>
+      <ProjectScreen username='anirudh-mk' token='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'/>
       <div className='contact'>
         <HeaddingText headding='Contact' color='#fff'/>
         <TextButton button_text='Download CV' text_button_color='#fff' font_color='#000' top={227} left={421}/>

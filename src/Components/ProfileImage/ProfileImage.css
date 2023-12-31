@@ -9,3 +9,6 @@
     position: absolute;
     overflow: hidden;
 }
+.profile-image-outer img{
+    position: absolute;
+}
