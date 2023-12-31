@@ -7,6 +7,9 @@
     padding-top: 14px;
     position: absolute;
 }
+.navigation-button:hover {
+    transform: scale(1.1);
+  }
 .navigation-button p{
     color: #FFF;
     font-family: Montserrat;

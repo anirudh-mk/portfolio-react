@@ -19,6 +19,7 @@
     line-height: 149.969%; /* 20.996px */
     margin-top: 10px;
 }
-.text-button :hover{
+.text-button:hover{
     cursor: pointer;
+    transform: scale(1.1); /* Increase size on hover */
 }
