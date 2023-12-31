@@ -1,10 +1,14 @@
 import React from 'react'
 import './NavigationButton.css'
 
-function NavigationButton({title, width, top, left, background}) {
+function NavigationButton({href, title, width, top, left, background}) {
   return (
-    <div className="navigation-button" style={{width:width, top:top, left:left, background:background}}>
-        <p>{title}</p>
+    <div>
+      <a href={href}>
+        <div className="navigation-button" style={{width:width, top:top, left:left, background:background}}>
+            <p>{title}</p>
+        </div>
+      </a>
     </div>
   )
 }

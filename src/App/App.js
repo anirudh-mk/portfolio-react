@@ -17,13 +17,13 @@ import ProjectScreen from '../Screens/ProjectScreen/ProjectScreen';
 
 function App() {
   return (
-    <div>
+    <div id='home'>
       <div className='home-headding-container'>
-        <HeaddingText headding='Anirudh MK' color='#fff'/>
-        <NavigationButton title='Home' width={115} top={33} left={588} background='rgba(255, 255, 255, 0.50)'/>
-        <NavigationButton title='About' width={115} top={33} left={730}/>
-        <NavigationButton title='Project' width={115} top={33} left={872}/>
-        <NavigationButton title='Contact Me' width={149} top={33} left={1014}/>
+        <HeaddingText href='#home' headding='Anirudh MK' color='#fff'/>
+        <NavigationButton href='#home' title='Home' width={115} top={33} left={588} background='rgba(255, 255, 255, 0.50)'/>
+        <NavigationButton href='#about' title='About' width={115} top={33} left={730}/>
+        <NavigationButton href='#project' title='Project' width={115} top={33} left={872}/>
+        <NavigationButton href='#contact' title='Contact Me' width={149} top={33} left={1014}/>
       </div>
       <div className='home-details-container'>
         <DetailsText/>
@@ -42,8 +42,8 @@ function App() {
           image_container_top={83}
         />
       </div>
-      <div className='about'>
-        <HeaddingText headding='About' color='#fff' />
+      <div id='about' className='about'>
+        <HeaddingText href='#about' headding='About' color='#fff' />
         <ProfileImage 
           image={AnirudhAboutImage}
           width={117.977}
@@ -66,9 +66,9 @@ function App() {
         <BottomDecorator/>
         <TopDecorator/>
       </div>
-      <ProjectScreen username='anirudh-mk' token='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'/>
-      <div className='contact'>
-        <HeaddingText headding='Contact' color='#fff'/>
+      <ProjectScreen href='#project' id='project' username='anirudh-mk' token='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'/>
+      <div id='contact' className='contact'>
+        <HeaddingText href='#contact' headding='Contact' color='#fff'/>
         <TextButton button_text='Download CV' link='https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3' text_button_color='#fff' font_color='#000' top={227} left={421}/>
         <IconButton icon={faGithubAlt} link='https://github.com/anirudh-mk' icon_button_color='#fff' icon_color="#000" top={227} left={644}/>
         <IconButton icon={faEnvelope} link='https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm' icon_button_color='#fff' icon_color="#000" top={227} left={724}/>

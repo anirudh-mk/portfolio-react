@@ -6,7 +6,10 @@
     background-color: #6E6F64;
     border-radius: 10px;
 }
-.project-details-card a{
+.project-details-card:hover{
+    transform: scale(1.02);
+}
+a{
     text-decoration: none;
 }
 .project-details-card a h1{

@@ -4,7 +4,7 @@ import './ProjectScreen.css';
 import HeaddingText from '../../Components/HeaddingText/HeaddingText';
 import ProjectDetailsCard from '../../Components/ProjectDetailsCard/ProjectDetailsCard';
 
-function ProjectScreen({ username, token }) {
+function ProjectScreen({id, href, username, token }) {
   const [projects, setProjects] = useState([]);
   const [displayedProjects, setDisplayedProjects] = useState([]);
   const [showAll, setShowAll] = useState(false);
@@ -50,8 +50,8 @@ function ProjectScreen({ username, token }) {
   };
 
   return (
-    <div className='projects' style={{ height: showAll ? 420 * (totalProjects / 4) + 160 : 600 }}>
-      <HeaddingText headding='Projects' color='#000' />
+    <div id={id} className='projects' style={{ height: showAll ? 420 * (totalProjects / 4) + 160 : 600 }}>
+      <HeaddingText href={href} headding='Projects' color='#000' />
       <div className='project-details-container' style={{ height: showAll ? 420 * (totalProjects / 4) : 420 }}>
         <ul>
           {displayedProjects.map((project) => (
