@@ -1,3 +1,18 @@
+.home-headding-container{
+  width: 1192px;
+  height: 215px;
+  flex-shrink: 0;
+  background-image: url('../assets/mountain.png');
+  margin: 46px auto 0px auto;
+  position: relative;
+  background-color: #6E6F64;
+}
+.home-details-container{
+  height: 571px;
+  width: 1192px;
+  margin: auto;
+  position: relative;
+}
 .about{
   width: 1192px;
   height: 436px;
@@ -31,14 +46,7 @@
   line-height: normal;
 }
 
-.projects{
-  width: 1192px;
-  height: 436px;
-  flex-shrink: 0;
-  background: #ffffff;
-  margin: auto;
-  position: relative;
-}
+
 .contact{
   width: 1192px;
   height: 436px;

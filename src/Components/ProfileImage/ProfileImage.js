@@ -1,0 +1,15 @@
+import React from 'react'
+import './ProfileImage.css'
+
+function ProfileImage({width, height, left, image_background_top, image_container_top, border_radius}) {
+  return (
+    <div>
+        <div class="profile-outer-circle" style={{width:width, height:width, top:image_background_top, left:left, borderRadius:border_radius}}/>
+            <div class="profile-image-outer" style={{width:width, height:height, top:image_container_top, left:left, borderBottomLeftRadius:border_radius, borderBottomRightRadius:border_radius}}>
+            <img src='D:/Anirudh/Coding/React/portfolio/src/assets/anirudh.png' alt="Anirudh"/>
+        </div>
+    </div>
+  )
+}
+
+export default ProfileImage

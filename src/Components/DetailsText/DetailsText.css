@@ -1,0 +1,17 @@
+.details-text{
+    width: 649px;
+    height: 228px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 129px;
+    left: 114px;
+}
+.details-text h1{
+    color: #1A2322;
+    text-shadow: 3px 5px 5.7px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+}

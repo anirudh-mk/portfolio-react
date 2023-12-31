@@ -1,0 +1,20 @@
+.navigation-button{
+    height: 34px;
+    flex-shrink: 0;
+    border: 3px solid #FFF;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 14px;
+    position: absolute;
+}
+.navigation-button p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+
+
+}

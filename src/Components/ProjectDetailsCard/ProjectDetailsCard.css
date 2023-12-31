@@ -1,0 +1,40 @@
+.project-details-card{
+    padding: 15px;
+    margin-bottom: 20px;
+    width:400px;
+    height: 150px;
+    background-color: #6E6F64;
+    border-radius: 10px;
+}
+.project-details-card a{
+    text-decoration: none;
+}
+.project-details-card a h1{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 380px;
+}
+.project-details-card p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #e7e7e7;
+}
+.project-details-card .project-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 380px;
+}
+.project-details-card .language{
+    text-align: right;
+}
