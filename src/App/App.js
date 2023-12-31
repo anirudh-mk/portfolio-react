@@ -27,10 +27,10 @@ function App() {
       </div>
       <div className='home-details-container'>
         <DetailsText/>
-        <TextButton button_text='Download CV' text_button_color='#6E6F64' font_color='#fff' top={442} left={114}/>
-        <IconButton icon={faGithubAlt} icon_button_color='#6E6F64' icon_color="#fff" top={442} left={310}/>
-        <IconButton icon={faEnvelope} icon_button_color='#6E6F64' icon_color="#fff" top={442} left={380}/>
-        <IconButton icon={faLinkedinIn} icon_button_color='#6E6F64' icon_color="#fff" top={442} left={451}/>
+        <TextButton button_text='Download CV' link='https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3' text_button_color='#6E6F64' font_color='#fff' top={442} left={114}/>
+        <IconButton icon={faGithubAlt} link='https://github.com/anirudh-mk' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={310} />
+        <IconButton icon={faEnvelope} link='https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={380}/>
+        <IconButton icon={faLinkedinIn} link='https://www.linkedin.com/in/anirudh-mk' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={451}/>
         <IconButton icon={faTwitter} icon_button_color='#6E6F64' icon_color="#fff" top={442} left={523}/>
         <ProfileImage 
           image={AnirudhImage}
@@ -66,13 +66,13 @@ function App() {
         <BottomDecorator/>
         <TopDecorator/>
       </div>
-      <ProjectScreen username='anirudh-mk' token='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'/>
+      <ProjectScreen username='anirudh-mk' token='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'/>
       <div className='contact'>
         <HeaddingText headding='Contact' color='#fff'/>
-        <TextButton button_text='Download CV' text_button_color='#fff' font_color='#000' top={227} left={421}/>
-        <IconButton icon={faGithubAlt} icon_button_color='#fff' icon_color="#000" top={227} left={644}/>
-        <IconButton icon={faEnvelope} icon_button_color='#fff' icon_color="#000" top={227} left={724}/>
-        <IconButton icon={faLinkedinIn} icon_button_color='#fff' icon_color="#000" top={227} left={805}/>
+        <TextButton button_text='Download CV' link='https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3' text_button_color='#fff' font_color='#000' top={227} left={421}/>
+        <IconButton icon={faGithubAlt} link='https://github.com/anirudh-mk' icon_button_color='#fff' icon_color="#000" top={227} left={644}/>
+        <IconButton icon={faEnvelope} link='https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm' icon_button_color='#fff' icon_color="#000" top={227} left={724}/>
+        <IconButton icon={faLinkedinIn} link='https://www.linkedin.com/in/anirudh-mk' icon_button_color='#fff' icon_color="#000" top={227} left={805}/>
         <IconButton icon={faTwitter} icon_button_color='#fff' icon_color="#000" top={227} left={886}/>
         <BottomDecorator/>
         <TopDecorator/>

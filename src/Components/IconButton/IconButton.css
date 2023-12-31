@@ -7,3 +7,6 @@
     border-radius: 50px;
     position: absolute;
 }
+.icon-button :hover{
+    cursor: pointer;
+}

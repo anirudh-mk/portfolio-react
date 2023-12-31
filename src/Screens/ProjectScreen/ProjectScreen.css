@@ -36,6 +36,9 @@
     margin-top: 10px;
     color: #fff;
 }
+.show-more-button :hover{
+    cursor: pointer;
+}
 .project-details-container ul {
     list-style-type: none;
     padding: 0;

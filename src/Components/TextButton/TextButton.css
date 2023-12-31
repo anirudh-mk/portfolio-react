@@ -7,6 +7,9 @@
     position: absolute;
     align-items: center;
 }
+.text-button a{
+    text-decoration: none;
+}
 .text-button p{
     text-align: center;
     font-family: Poppins, Montserrat;
@@ -15,4 +18,7 @@
     font-weight: 700;
     line-height: 149.969%; /* 20.996px */
     margin-top: 10px;
+}
+.text-button :hover{
+    cursor: pointer;
 }
