@@ -26,6 +26,7 @@ function ProjectScreen({id, href, username, token }) {
         setTotalProjects(sortedProjects.length);
       } catch (error) {
         console.error('Error fetching GitHub projects:', error);
+        console.log(error.request.status)
       }
     };
 
